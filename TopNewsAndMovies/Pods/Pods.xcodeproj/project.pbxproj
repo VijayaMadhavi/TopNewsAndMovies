@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB46ADF4EFA70C4E8C7AE44061B8BFC /* StarRatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 997B1B4BEF71D9C389DECD07F75226BA /* StarRatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A28284DECBF94E2375D7418E075686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		681FBF566295B2FBD3EDD081F25658C5 /* StarRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B513540DF6A45E4A8E15712B921446 /* StarRatingView-dummy.m */; };
+		7A36F1B7571839725F5E6D07302B31F5 /* Pods-TheNewsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 319629E33387CF679307C131B9C6138B /* Pods-TheNewsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847139E2C2B42A7662CE68FF26B4AE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		98D3B984C55B547A4D6A8CA6B45B2D8F /* Pods-TheNewsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A67B9A477650F72225857A1B211666 /* Pods-TheNewsApp-dummy.m */; };
+		C9747429E5402DB5609AA78CFD0BD623 /* StarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = E19128BD2EE64CADA16A2C3C3BF5D0C4 /* StarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E532FE04EF11E55DDB43B25147D61E34 /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE1CE1FA9C583B3335C5F3F18EF1CE /* StarRatingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BD6806D491EDA6A3B5D983A1A4D84F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0EC184CBF9CC5D6A49E1F69F02C138C;
+			remoteInfo = StarRatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094754929141BE69ADDDCE0AC70BC182 /* Pods-TheNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheNewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		0E6C83020D8BBDA0FCD42A55BA1F4D34 /* StarRatingView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StarRatingView; path = StarRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFE1CE1FA9C583B3335C5F3F18EF1CE /* StarRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StarRatingView.m; path = StarRatingView/Source/View/StarRatingView.m; sourceTree = "<group>"; };
+		28F237657372E1B063867F2FCCEC5D56 /* Pods-TheNewsApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TheNewsApp"; path = Pods_TheNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319629E33387CF679307C131B9C6138B /* Pods-TheNewsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TheNewsApp-umbrella.h"; sourceTree = "<group>"; };
+		3A16BF8ECC38DEE6520D53FB56A3B1D8 /* StarRatingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarRatingView.release.xcconfig; sourceTree = "<group>"; };
+		48EBA475D7E149EEB85B6643193C2251 /* Pods-TheNewsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TheNewsApp-Info.plist"; sourceTree = "<group>"; };
+		555F14D53CC8ECA78C542F727B8769D1 /* Pods-TheNewsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TheNewsApp.modulemap"; sourceTree = "<group>"; };
+		6E3D8AA007DEDB4E9AE0A73BD2E727BA /* Pods-TheNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		762AC22098EFD70BB3C4F5F07104F564 /* StarRatingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StarRatingView-Info.plist"; sourceTree = "<group>"; };
+		997B1B4BEF71D9C389DECD07F75226BA /* StarRatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarRatingView-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B513540DF6A45E4A8E15712B921446 /* StarRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarRatingView-dummy.m"; sourceTree = "<group>"; };
+		A776FC801418434D4AD56F9AB08CF51A /* Pods-TheNewsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TheNewsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A98142E7E85A2D90FAAC078FEBA764AC /* Pods-TheNewsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TheNewsApp-frameworks.sh"; sourceTree = "<group>"; };
+		B4A67B9A477650F72225857A1B211666 /* Pods-TheNewsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TheNewsApp-dummy.m"; sourceTree = "<group>"; };
+		B840669A06FC527DCCD05021EAAFC47B /* Pods-TheNewsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TheNewsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF369221D9401769F4169C1F8657C143 /* StarRatingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarRatingView.debug.xcconfig; sourceTree = "<group>"; };
+		E19128BD2EE64CADA16A2C3C3BF5D0C4 /* StarRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StarRatingView.h; path = StarRatingView/Source/View/StarRatingView.h; sourceTree = "<group>"; };
+		ECB654595AC9B5887AEFC398DC711D0D /* StarRatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StarRatingView.modulemap; sourceTree = "<group>"; };
+		F7661B82F01175A1442C4B4D48A704E5 /* StarRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarRatingView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D90CBE799D828CA18C183CD59FFC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847139E2C2B42A7662CE68FF26B4AE9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E996542A27CFDE6D656E00DFFE03570B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A28284DECBF94E2375D7418E075686 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009DD665358223CB4150DC99A493899C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB2A60F062F20A93F9BE4FC695295A3 /* Pods-TheNewsApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		338E33A949B8CFFE418DAABE7AFE21AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F99A4344E050186D82E9F8001A0F01D8 /* StarRatingView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DB2A60F062F20A93F9BE4FC695295A3 /* Pods-TheNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				555F14D53CC8ECA78C542F727B8769D1 /* Pods-TheNewsApp.modulemap */,
+				A776FC801418434D4AD56F9AB08CF51A /* Pods-TheNewsApp-acknowledgements.markdown */,
+				B840669A06FC527DCCD05021EAAFC47B /* Pods-TheNewsApp-acknowledgements.plist */,
+				B4A67B9A477650F72225857A1B211666 /* Pods-TheNewsApp-dummy.m */,
+				A98142E7E85A2D90FAAC078FEBA764AC /* Pods-TheNewsApp-frameworks.sh */,
+				48EBA475D7E149EEB85B6643193C2251 /* Pods-TheNewsApp-Info.plist */,
+				319629E33387CF679307C131B9C6138B /* Pods-TheNewsApp-umbrella.h */,
+				6E3D8AA007DEDB4E9AE0A73BD2E727BA /* Pods-TheNewsApp.debug.xcconfig */,
+				094754929141BE69ADDDCE0AC70BC182 /* Pods-TheNewsApp.release.xcconfig */,
+			);
+			name = "Pods-TheNewsApp";
+			path = "Target Support Files/Pods-TheNewsApp";
+			sourceTree = "<group>";
+		};
+		C2928FEC64E2068E8D12379D508208A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB654595AC9B5887AEFC398DC711D0D /* StarRatingView.modulemap */,
+				A1B513540DF6A45E4A8E15712B921446 /* StarRatingView-dummy.m */,
+				762AC22098EFD70BB3C4F5F07104F564 /* StarRatingView-Info.plist */,
+				F7661B82F01175A1442C4B4D48A704E5 /* StarRatingView-prefix.pch */,
+				997B1B4BEF71D9C389DECD07F75226BA /* StarRatingView-umbrella.h */,
+				BF369221D9401769F4169C1F8657C143 /* StarRatingView.debug.xcconfig */,
+				3A16BF8ECC38DEE6520D53FB56A3B1D8 /* StarRatingView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StarRatingView";
+			sourceTree = "<group>";
+		};
+		C759567D57428E632D57C5E53AB4167D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F237657372E1B063867F2FCCEC5D56 /* Pods-TheNewsApp */,
+				0E6C83020D8BBDA0FCD42A55BA1F4D34 /* StarRatingView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				338E33A949B8CFFE418DAABE7AFE21AE /* Pods */,
+				C759567D57428E632D57C5E53AB4167D /* Products */,
+				009DD665358223CB4150DC99A493899C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F99A4344E050186D82E9F8001A0F01D8 /* StarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				E19128BD2EE64CADA16A2C3C3BF5D0C4 /* StarRatingView.h */,
+				1BFE1CE1FA9C583B3335C5F3F18EF1CE /* StarRatingView.m */,
+				C2928FEC64E2068E8D12379D508208A0 /* Support Files */,
+			);
+			name = StarRatingView;
+			path = StarRatingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D416694832A500183D613E6433110B01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9747429E5402DB5609AA78CFD0BD623 /* StarRatingView.h in Headers */,
+				3AB46ADF4EFA70C4E8C7AE44061B8BFC /* StarRatingView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA52EC50722AF52D141CD9F00EF083CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A36F1B7571839725F5E6D07302B31F5 /* Pods-TheNewsApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A54942AEBD1BED2E0DAA4FC88206FAC /* Pods-TheNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014C7023200EE171F23538C030F3BA2E /* Build configuration list for PBXNativeTarget "Pods-TheNewsApp" */;
+			buildPhases = (
+				DA52EC50722AF52D141CD9F00EF083CA /* Headers */,
+				3FB02623CAA340A244183DBF6664A1A5 /* Sources */,
+				61D90CBE799D828CA18C183CD59FFC97 /* Frameworks */,
+				01A2603194147325D5D71D15B87023FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A520384F36D1BBEB0E329906DC4777F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TheNewsApp";
+			productName = Pods_TheNewsApp;
+			productReference = 28F237657372E1B063867F2FCCEC5D56 /* Pods-TheNewsApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0EC184CBF9CC5D6A49E1F69F02C138C /* StarRatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D8AF4463AC8362AFD979F34AB39B51 /* Build configuration list for PBXNativeTarget "StarRatingView" */;
+			buildPhases = (
+				D416694832A500183D613E6433110B01 /* Headers */,
+				5F5B640ECB68D2FD9DD11204DFA0DF9A /* Sources */,
+				E996542A27CFDE6D656E00DFFE03570B /* Frameworks */,
+				DA2DE2D54B5B3968E425C3BF7D0F0478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarRatingView;
+			productName = StarRatingView;
+			productReference = 0E6C83020D8BBDA0FCD42A55BA1F4D34 /* StarRatingView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C759567D57428E632D57C5E53AB4167D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A54942AEBD1BED2E0DAA4FC88206FAC /* Pods-TheNewsApp */,
+				A0EC184CBF9CC5D6A49E1F69F02C138C /* StarRatingView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A2603194147325D5D71D15B87023FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2DE2D54B5B3968E425C3BF7D0F0478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB02623CAA340A244183DBF6664A1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D3B984C55B547A4D6A8CA6B45B2D8F /* Pods-TheNewsApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5B640ECB68D2FD9DD11204DFA0DF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E532FE04EF11E55DDB43B25147D61E34 /* StarRatingView.m in Sources */,
+				681FBF566295B2FBD3EDD081F25658C5 /* StarRatingView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A520384F36D1BBEB0E329906DC4777F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StarRatingView;
+			target = A0EC184CBF9CC5D6A49E1F69F02C138C /* StarRatingView */;
+			targetProxy = 4BD6806D491EDA6A3B5D983A1A4D84F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3259DE8F63856A066A3DBA4A2FF127E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF369221D9401769F4169C1F8657C143 /* StarRatingView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StarRatingView/StarRatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarRatingView/StarRatingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StarRatingView/StarRatingView.modulemap";
+				PRODUCT_MODULE_NAME = StarRatingView;
+				PRODUCT_NAME = StarRatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A1B432645E221393173668687FBE3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3D8AA007DEDB4E9AE0A73BD2E727BA /* Pods-TheNewsApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TheNewsApp/Pods-TheNewsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TheNewsApp/Pods-TheNewsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABAA0D1B24C63CCF598D8C17FC922458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A16BF8ECC38DEE6520D53FB56A3B1D8 /* StarRatingView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StarRatingView/StarRatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarRatingView/StarRatingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StarRatingView/StarRatingView.modulemap";
+				PRODUCT_MODULE_NAME = StarRatingView;
+				PRODUCT_NAME = StarRatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F54B732268D6C63F2E68CBC4E78764B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094754929141BE69ADDDCE0AC70BC182 /* Pods-TheNewsApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TheNewsApp/Pods-TheNewsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TheNewsApp/Pods-TheNewsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014C7023200EE171F23538C030F3BA2E /* Build configuration list for PBXNativeTarget "Pods-TheNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1B432645E221393173668687FBE3DB /* Debug */,
+				F54B732268D6C63F2E68CBC4E78764B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D8AF4463AC8362AFD979F34AB39B51 /* Build configuration list for PBXNativeTarget "StarRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3259DE8F63856A066A3DBA4A2FF127E1 /* Debug */,
+				ABAA0D1B24C63CCF598D8C17FC922458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

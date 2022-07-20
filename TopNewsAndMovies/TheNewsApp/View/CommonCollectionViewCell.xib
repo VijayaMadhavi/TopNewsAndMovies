@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CommonCollectionViewCell" id="gTV-IL-0wX" customClass="CommonCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="222"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="222"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wul-3w-zV6">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="cku-Fi-lSv"/>
+                            <constraint firstAttribute="width" constant="150" id="kJJ-3K-kOh"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pif-4Y-gIU">
+                        <rect key="frame" x="0.0" y="154" width="150" height="68"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="68" id="kQM-CW-WiH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstItem="Wul-3w-zV6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="9iT-l7-wAM"/>
+                <constraint firstItem="Wul-3w-zV6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="If3-IK-03I"/>
+                <constraint firstAttribute="trailing" secondItem="Wul-3w-zV6" secondAttribute="trailing" id="Y5E-iC-JFM"/>
+                <constraint firstItem="Pif-4Y-gIU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ak3-Mq-TZy"/>
+                <constraint firstAttribute="bottom" secondItem="Pif-4Y-gIU" secondAttribute="bottom" id="dXs-po-XyK"/>
+                <constraint firstAttribute="trailing" secondItem="Pif-4Y-gIU" secondAttribute="trailing" id="f6P-3K-Vfv"/>
+                <constraint firstItem="Pif-4Y-gIU" firstAttribute="top" secondItem="Wul-3w-zV6" secondAttribute="bottom" constant="4" id="rL1-gc-fja"/>
+            </constraints>
+            <size key="customSize" width="170" height="246"/>
+            <connections>
+                <outlet property="wsjImageView" destination="Wul-3w-zV6" id="umX-Mu-umV"/>
+                <outlet property="wsjLabel" destination="Pif-4Y-gIU" id="0m3-Dr-MRh"/>
+            </connections>
+            <point key="canvasLocation" x="146.37681159420291" y="136.60714285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,16 @@
+PODS:
+  - StarRatingView (1.3.0)
+
+DEPENDENCIES:
+  - StarRatingView
+
+SPEC REPOS:
+  trunk:
+    - StarRatingView
+
+SPEC CHECKSUMS:
+  StarRatingView: 6b6e0e762bbcce3aae8bdbde97dab54342333f7b
+
+PODFILE CHECKSUM: 5e845b7a605298d92baaac38dcd4e22271627bea
+
+COCOAPODS: 1.11.3

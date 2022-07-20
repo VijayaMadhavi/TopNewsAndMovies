@@ -7,16 +7,16 @@
 
 #import "APIHandler.h"
 
-const NSString *topHeadlinesURL = @"https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=09683acaca6e4d68b45d95e49db30835";
+const NSString *topHeadlinesURL = @"https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=";
 
 const NSString *movieBaseUrl = @"https://api.themoviedb.org/3/movie/";
-const NSString *movieApiKey = @"faf42fb06e36b2d01006f114f3700c40";
+const NSString *movieApiKey = "";
 
-const NSString *popularMovieURL = @"https://api.themoviedb.org/3/movie/popular?api_key=faf42fb06e36b2d01006f114f3700c40&language=en-US&page=1";
+const NSString *popularMovieURL = @"https://api.themoviedb.org/3/movie/popular?api_key=&language=en-US&page=1";
 
-const NSString *wsjNewsURL = @"https://newsapi.org/v2/everything?domains=wsj.com&apiKey=09683acaca6e4d68b45d95e49db30835";
+const NSString *wsjNewsURL = @"https://newsapi.org/v2/everything?domains=wsj.com&apiKey=";
 
-const NSString *topRatedMovieURL = @"https://api.themoviedb.org/3/movie/top_rated?api_key=faf42fb06e36b2d01006f114f3700c40&language=en-US&page=1";
+const NSString *topRatedMovieURL = @"https://api.themoviedb.org/3/movie/top_rated?api_key=&language=en-US&page=1";
 
 @implementation APIHandler
 
